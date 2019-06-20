@@ -1,6 +1,6 @@
 ---
-layout: post
-title: "Just some testing page"
+layout: posts
+title: Just some testing page
 date: 2019-04-01
 ---
 ## Testing page
