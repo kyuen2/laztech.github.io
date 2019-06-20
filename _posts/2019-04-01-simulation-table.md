@@ -3,18 +3,22 @@ layout: post
 title: "Just some testing page"
 date: 2019-04-01
 ---
- 
-## Ap: Parameters in dispersion
-Huge simulations, $792^3$, $M_s\sim 6$
-|  Name  | $M_A$ | $M_s$ |
-| :----: | :---: | :---: |
-| huge-0 | 0.22  | 7.31  |
-| huge-1 | 0.42  |  6.1  |
-| huge-2 | 0.61  | 6.47  |
-| huge-3 | 0.82  | 6.14  |
-| huge-4 | 1.01  | 6.03  |
-| huge-5 | 1.19  | 6.08  |
-| huge-6 | 1.38  | 6.24  |
-| huge-7 | 1.55  | 5.94  |
-| huge-8 | 1.67  |  5.8  |
-| huge-9 | 1.71  | 5.55  |
+# Testing page
+## Channel gradient
+$$
+\nabla_{x,y} p(x,y,v_0,\Delta v) = \int dz \int_{v_0 - \Delta v/2}^{v_0 + \Delta v/2} d^3 vW(v) \nabla_{x,y}\left[{\color{blue} \rho(x,y,z)}e^{-\frac{m(v-{\color{red} v_{turb}(x,y,z)})^2}{2k_B{\color{blue} T(x,y,z)}}}\right]  \tag{*}
+$$
+In Fourier space, writing $X=(x,y)$
+$$
+\mathcal{F}_{X}\{\nabla_{X} p(X,v_0,\Delta v)\}  = \int dz \int_{v_0 - \Delta v/2}^{v_0 + \Delta v/2} d^3 vW(v) \int d^2 K e^{iK\cdot X} {\color{red}iK} \left[ \rho(x,y,z)e^{-\frac{m(v- v_{turb}(x,y,z))^2}{2k_BT(x,y,z)}}\right] \tag{*}
+$$
+What is a spectrum?
+$$
+\begin{align}
+P[p] &= \oint d^2K|\mathcal{F}_{X}\{\nabla_{X} p(X,v_0,\Delta v)\} |^2 = 2\pi K |\mathcal{F}_{X}\{\nabla_{X} p(X,v_0,\Delta v)\} |^2\\
+&\sim 2\pi K{\color{red} K^2} |\mathcal{F}_{X}\{p(X,v_0,\Delta v)\} |^2
+\end{align}
+$$
+- Q1: USM-ed channel channal map <-> any correlation with original spectrum?
+  USM : What spectrum?
+- Q2: Spectrum relation between Thermal broadening <-> No Thermal broadening ?
