@@ -3,8 +3,8 @@ layout: post
 title: "Just some testing page"
 date: 2019-04-01
 ---
-# Testing page
-## Channel gradient
+## Testing page
+### Channel gradient
 $$
 \nabla_{x,y} p(x,y,v_0,\Delta v) = \int dz \int_{v_0 - \Delta v/2}^{v_0 + \Delta v/2} d^3 vW(v) \nabla_{x,y}\left[{\color{blue} \rho(x,y,z)}e^{-\frac{m(v-{\color{red} v_{turb}(x,y,z)})^2}{2k_B{\color{blue} T(x,y,z)}}}\right]  \tag{*}
 $$
