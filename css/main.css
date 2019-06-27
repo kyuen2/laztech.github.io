@@ -1,6 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+# Set a background color #
 body {
-    margin: 30px auto;
-    width: 80%;
+  background-color: #474e5d;
+  font-family: Helvetica, sans-serif;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -46,16 +51,9 @@ ul.posts li {
 
 /*
     For timeline
-
-
-* {
-  box-sizing: border-box;
-}
-
-# Set a background color #
-body {
-  background-color: #474e5d;
-  font-family: Helvetica, sans-serif;
+    body {
+    margin: 30px auto;
+    width: 80%;
 }
 */
 
@@ -170,7 +168,7 @@ body {
     left: 60px;
     border: medium solid black;
     border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
+    border-color: transparent black transparent transparent;
   }
 
 /* Make sure all circles are at the same spot */
