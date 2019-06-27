@@ -15,7 +15,7 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 5px;
 }
 a {
     text-decoration: none;
@@ -29,14 +29,14 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
-    font-size: 1.1em;
+    font-size: 0.9em;
     line-height: 1.4em;
     color: #333;
 }
 
 
 footer {
-    border-top: 1px solid #d5d5d5;
+    border-top: 0.7px solid #d5d5d5;
     font-size: .8em;
 }
 
@@ -88,7 +88,7 @@ ul.posts li {
 .container::after {
   content: '';
   position: absolute;
-  width: 25px;
+  width: 25px; /* 25 px*/
   height: 25px;
   right: -17px;
   background-color: white;
@@ -117,9 +117,9 @@ ul.posts li {
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid white;
+  border: medium solid black;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;
+  border-color: transparent transparent transparent black;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -131,9 +131,9 @@ ul.posts li {
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid white;
+  border: medium solid black;
   border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
+  border-color: transparent black transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -146,7 +146,7 @@ ul.posts li {
   padding: 40px 60px;
   background-color: white;
   position: relative;
-  border-radius: 6px;
+  border-radius: 1px;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
@@ -159,7 +159,7 @@ ul.posts li {
 /* Full-width containers */
   .container {
     width: 100%;
-    padding-left: 70px;
+    padding-left: 25px;
     padding-right: 25px;
   }
 
