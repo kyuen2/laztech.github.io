@@ -31,14 +31,14 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
-    font-size: 0.9em;
+    font-size: 1.3em;
     line-height: 1.4em;
     color: #333;
 }
 
 
 footer {
-    border-top: 0.7px solid #d5d5d5;
+    border-top: 0.8px solid #d5d5d5;
     font-size: .8em;
 }
 
