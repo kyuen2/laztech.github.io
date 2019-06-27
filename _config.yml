@@ -1,4 +1,4 @@
 name: Ka Ho Yuen
 markdown: kramdown  
-theme: minimal
+theme: minima
 permalink: /blog/:year/:month/:day/:title
